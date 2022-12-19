@@ -4,9 +4,9 @@
 
 *  reset_to_98 - takes the pointer and updates the value
 
-*  @n: int to check
+i*  @n: int to check
 
-*  Owned By Bwave/Bright
+*  Owned By O.A
 
 *  Return: 0 is success
 
