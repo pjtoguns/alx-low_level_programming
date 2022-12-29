@@ -2,10 +2,10 @@
 
 /**
  *  * main - Prints the sum of even-valued Fibonacci sequence
- *   *        terms not exceeding 400000
+ *   *        terms not exceeding 4000000
  *     * Return: Always 0.
  */
- int main(void)
+int main(void)
 {
 	unsigned long fib1 = 0, fib2 = 1, fibsum;
 	float tot_sum;
