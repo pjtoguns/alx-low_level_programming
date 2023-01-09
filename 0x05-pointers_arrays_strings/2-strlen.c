@@ -1,51 +1,16 @@
 #include "main.h"
 
 /**
-
- * _strcmp - compare 2 string
-
- * @s1:string
-
- * @s2:strmp
-
- * Return:int
-
- * Bwave/ Bright
-
+ *_strlen - return the length of a string
+ *@s: char to check
+ *Description: this will return the length of a string
+ *Return: 0 is success
  */
-
-int _strcmp(char *s1, char *s2)
-
+int _strlen(char *s)
 {
+	int a = 0;
 
-	while (((*s1 != '\0') && (*s2 != '\0')) && (*s1 == *s2))
-
-	{
-
-		s1++;
-
-		s2++;
-
-	}
-
-
-
-	if (*s1 == *s2)
-
-	{
-
-		return (0);
-
-	}
-
-
-
-	else
-
-	{
-
-		return (*s1 - *s2);
-
-	}
-
+	for (; *s++;)
+		a++;
+	return (a);
 }
